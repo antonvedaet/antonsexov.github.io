@@ -1,0 +1,52 @@
+html {
+	font-size: 20px;
+	font-family: Poppins;
+	background-color: #FFA07A;
+}
+
+body{
+	width: 500px;
+	background-color: #FFDAB9;
+	margin: 0 auto;
+	padding: 30px 30px 30px 30px;
+	border-radius: 50px 50px 50px 50px;
+}
+
+h1 {
+  margin: 0;
+  padding: 20px 0;
+	text-align: center;
+}
+.emails{
+	font-size: 15px;
+}
+
+.hello{
+	font-size: 20px;
+}
+
+img.round{
+	width: 300px;
+	height: 300px;
+	display: block;
+	margin: 0 auto;
+	border-radius: 400px;
+	box-shadow: 0;
+}
+
+figure:hover+span {
+	bottom: -36px;
+	opacity: 1;
+}
+
+.hover figure img {
+	-webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+
+.hover figure:hover img {
+	-webkit-transform: scale(1.3);
+	transform: scale(1.3);
+}
